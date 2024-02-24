@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+    <h1>Fotos.is</h1>
+</header>
+<nav id="main-nav">
+    <ul>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="canon.html">Canon</a></li>
+        <li><a href="sony.html">Sony</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="half" onclick="window.location.href='sony.html';">
+        <img src="photos/laugavegur.png" alt="laugavegur">
+        <div class="text-overlay text-overlay-1">Sony</div>
+    </div>
+    <div class="half" onclick="window.location.href='canon.html';">
+        <img src="photos/canon.png" alt="Canon">
+        <div class="text-overlay text-overlay-2">Canon</div>
+    </div>
+</div>
+
+<main>
+    <section>
+        <h2>About This Site</h2>
+        <p>Gaur sem veit ekkert hvað hann er að gera en staðráðinn að finna útúr þessu á kostnað geðheilsunar!</p>
+    </section>
+    <section>
+        <h2>Ýttu á mig</h2>
+        <button id="clickMeBtn">ÝTTU!</button>
+        <p id="message"></p>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 by Ingi Haralds. All rights reserved.</p>
+</footer>
+<script src="index.js"></script>
+</body>
+</html>

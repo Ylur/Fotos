@@ -1,0 +1,26 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-item {
+    margin-bottom: 20px;
+}
+
+.blog-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.blog-item h2 {
+    margin-top: 10px;
+}
+
+.blog-item p {
+    margin-bottom: 10px;
+}
+
+/* Additional styling as needed */

@@ -1,0 +1,57 @@
+        body {
+        text-align: center;
+
+        }
+        ul {
+        border: solid;
+        }
+
+        .class:sony-a1-image {
+                  width: 200px; /* Set the width as needed */
+                  height: auto; /* This maintains the aspect ratio */
+                }
+
+ .photo-container {
+     display: flex;
+     flex-direction: horizontally; /* Stacks items vertically */
+     align-items: center; /* Align items horizontally in the center */
+     text-align: center; /* Align text horizontally in the center */
+ }
+
+ .photo-container img {
+     width: 50%;
+     height: auto;
+     margin-bottom: 10px; /* Add space between images and alt text */
+ }
+
+
+
+
+
+       .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 16px;
+            width: 100%;
+            border: solid;
+            text-align: center;
+            outline: none;
+            font-size: 16px;
+        }
+
+        .active, .collapsible:hover {
+            background-color: #555;
+        }
+
+        .content {
+            display: none;
+            overflow: hidden;
+            background-color: #f1f1f1;
+            padding: 0 18px;
+        }
+
+        .content p {
+            margin: 10px 0;
+        }
+

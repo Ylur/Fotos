@@ -1,0 +1,55 @@
+/* Sony undirflokkar.css */
+header{
+font-size: 54px;
+text-align: center;
+padding: 10px 10px;
+color: orange;
+text-weight: bold;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.BACKGROUND_GROUP {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 20px; /* Gap between items */
+}
+
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.item img {
+    width: 100%;
+    height: 100%;
+    border: solid;
+    transition: transform 0.3s ease-in-out
+}
+
+.item:hover img {
+    transform: scale(1.1);
+}
+
+.item p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.item p:hover {
+font-size: 20px;
+
+}

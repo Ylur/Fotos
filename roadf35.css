@@ -1,0 +1,82 @@
+/* Road F35 */
+
+
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    margin-bottom: 15px;
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post .meta {
+    color: #777;
+    font-size: 14px;
+}
+
+.post .meta span {
+    margin-right: 10px;
+}
+
+.post .tags {
+    margin-top: 10px;
+}
+
+.post .tags a {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.post .tags a:hover {
+    background-color: #e0e0e0;
+}
+
+

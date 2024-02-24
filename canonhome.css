@@ -1,0 +1,29 @@
+/* Canon undirflokkar.css */
+header{
+font-size: 54px;
+text-align: center;
+padding: 55px 10px;
+color: orange;
+text-weight: bold;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#BACKGROUND_GROUP {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.item {
+    position: absolute;
+    cursor: pointer;
+    /* Adjust the size and position of each item */
+}

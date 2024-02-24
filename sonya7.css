@@ -1,0 +1,45 @@
+head {
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+ul ul { /* Styling for sub-lists */
+    margin-left: 20px; /* Indent sub-lists */
+    padding-left: 0;
+}
+
+li {
+    background: linear-gradient(to right, #f0f0f0 0%, #fafafa 100%); /* Light background for list items */
+    margin-bottom: 5px; /* Add some space between list items */
+    padding: 10px; /* Add some padding inside list items */
+    border-radius: 5px; /* Optional: Round corners for list items */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Add a subtle shadow */
+}
+
+li li { /* Styling for sub-list items */
+    background: #ffffff; /* Different background for nested list items */
+    margin: 5px 0; /* Smaller margin for nested items */
+    border: 1px solid #eaeaea; /* Optional: Add a border to nested items */
+    box-shadow: none; /* Remove box-shadow for nested items */
+}
+
+li li li { /* Styling for deeper nested list items */
+    background: #f9f9f9; /* Even lighter background for deeper nested items */
+    margin-left: 15px; /* Indent deeper nested items */
+    border: none; /* Remove border for deeper nested items */
+}
+
+/* Style to add bullet points behind the start of each list item */
+li::before {
+    content: "• "; /* Bullet point */
+    color: #333; /* Bullet point color */
+    font-weight: bold; /* Make bullet point bold */
+    display: inline-block; /* Ensure the bullet is inline */
+    width: 20px; /* Space for bullet */
+    margin-left: -20px; /* Position bullet outside the padding of the list item */
+}
