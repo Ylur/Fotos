@@ -1,5 +1,6 @@
 /* Sony undirflokkar.css */
-header{
+
+header {
 font-size: 54px;
 text-align: center;
 padding: 10px 10px;
@@ -20,7 +21,6 @@ body, html {
     grid-template-columns: repeat(4, 1fr); /* Four columns */
     gap: 20px; /* Gap between items */
 }
-
 
 
 .item {
@@ -44,12 +44,11 @@ body, html {
     transform: scale(1.1);
 }
 
-.item p {
+
+.div p {
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 20px;
 
 }
-.item p:hover {
-font-size: 20px;
 
-}
